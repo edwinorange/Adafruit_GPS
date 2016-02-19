@@ -1,0 +1,7 @@
+{
+    "name": "Adafruit_GPS",
+    "version": "0.0.1",
+    "author": "Edwin Orange <edwin@edwinorange.com>",
+    "license": "MIT License",
+    "description": "Spark Electron Library for Adafruit GPS Shield"
+}
