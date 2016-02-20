@@ -136,13 +136,7 @@ class Adafruit_GPS {
   boolean paused;
   
   uint8_t parseResponse(char *response);
-#ifdef __AVR__
-  #if ARDUINO >= 100
-    SoftwareSerial *gpsSwSerial;
-  #else
-    NewSoftSerial  *gpsSwSerial;
-  #endif
-#endif
+
   HardwareSerial *gpsHwSerial;
 };
 
